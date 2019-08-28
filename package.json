@@ -1,0 +1,26 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "set BROWSER=%ProgramFiles(x86)%\\Google\\Chrome\\Application\\chrome.exe && expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "expo": "^34.0.0",
+    "fb-watchman": "^2.0.0",
+    "react": "16.8.3",
+    "react-dom": "^16.8.6",
+    "react-native": "^0.60.5",
+    "react-native-elements": "^1.1.0",
+    "react-native-web": "^0.11.4",
+    "tcomb-form-native": "^0.6.20",
+    "watchman": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^6.0.0"
+  },
+  "private": true
+}
